@@ -1,0 +1,18 @@
+/**
+* @name Hide useless icons on the text box
+* @author axberu
+* @version 0.420.69.1
+* @description Hides app launcher and gift icons from the message textbox.
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/hide_useless_textbox_icons.css
+*/
+
+/* App launcher button */
+div[class^="channelAppLauncher_"] {
+	display: none !important;
+}
+
+/* Gift button */
+button[aria-label="Send a gift"] {
+	display: none;
+}

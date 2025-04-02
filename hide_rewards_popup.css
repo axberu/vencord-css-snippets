@@ -1,0 +1,12 @@
+/**
+* @name Hide reward available popup
+* @author axberu
+* @version 0.420.69.1
+* @description No more stupid ads.
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/hide_rewards_popup.css
+*/
+
+.wrapper_c721cc.wrapperVisible_c721cc {
+    display: none !important;
+}

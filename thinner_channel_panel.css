@@ -1,0 +1,12 @@
+/**
+* @name Thinner channel list
+* @author axberu
+* @version 0.420.69.1
+* @description Reverts the new UI width on the channel list panel.
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
+*/
+
+body {
+	--custom-guild-sidebar-width: 320px !important;
+}

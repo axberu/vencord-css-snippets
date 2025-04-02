@@ -1,0 +1,22 @@
+/**
+* @name Swap chatbox and "...is typing"
+* @author axberu
+* @version 0.420.69.1
+* @description Moves the "X is typing" above chatbox so chatbox is aligned with user info
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/move_typing_above_chatbox.css
+*/
+
+div[class^="typing_"] {
+    margin-bottom: 66px;
+}
+
+div[class^="channelTextArea_"] {
+    margin-bottom: 8px;
+	margin-top: 18px;
+}
+
+/* slightly shrink user area on the bottom left so height is consistent with chat box */
+.container__37e49 {
+    height: 52px !important;
+}
