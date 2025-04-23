@@ -1,0 +1,17 @@
+/**
+* @name Hide set wallpaper from context menu
+* @author axberu
+* @version 0.420.69.1
+* @description Hides "Set DM Wallpaper" context menu item when right clicking a user in the DMs tab
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/hide_set_dm_wallpaper_context_item.css
+*/
+
+div[role="group"]:has(div#user-context-set-wallpaper) + div[role="separator"] {
+	display: none;
+}
+
+
+div[role="group"]:has(div#user-context-set-wallpaper) {
+	display: none;
+}
