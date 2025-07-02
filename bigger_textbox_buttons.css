@@ -1,0 +1,50 @@
+/**
+* @name Bigger text box buttons
+* @author axberu
+* @version 0.420.69.1
+* @description Makes the buttons on the textbox as big as emojis so they don't look tiny with the "refreshed" taller textbox.
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/bigger_textbox_buttons.css
+*/
+
+:root {
+    --biggerTextboxIconSize: 26px;
+}
+
+/* Attachment button */
+[class*="attachButtonInner"] {
+    height: var(--biggerTextboxIconSize);
+    width: 100%;
+    & svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+/* Attachment wrapper (fixes uneven padding) */
+button[class*="attachButton"] {
+    padding-inline: calc((var(--custom-channel-textarea-text-area-height) - var(--biggerTextboxIconSize)) / 2) !important;
+}
+
+/* Gift */
+button[aria-label="Send a gift"] div[class^="lottieIcon_"] {
+    height: var(--biggerTextboxIconSize) !important;
+    width: 100% !important;
+}
+
+/* Gif + Sticker */
+div.expression-picker-chat-input-button div[class^="lottieIcon_"] {
+    height: var(--biggerTextboxIconSize) !important;
+    width: 100% !important;
+}
+
+/* Emoji */
+div[class^="spriteContainer"] {
+    --custom-emoji-sprite-size: var(--biggerTextboxIconSize) !important;
+}
+
+/* App launcher */
+div[class^="channelAppLauncher_"] div[class^="lottieIcon_"] {
+    height: var(--biggerTextboxIconSize) !important;
+    width: 100% !important;
+}
+

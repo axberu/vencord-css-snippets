@@ -2,7 +2,7 @@
 * @name Swap chatbox and "...is typing"
 * @author axberu
 * @version 0.420.69.1
-* @description Moves the "X is typing" above chatbox so chatbox is aligned with user info
+* @description Moves the "X is typing" above chatbox so chatbox is aligned with user info. Warning: If there's more than one line of text typed in the textbox the "Typing..." element goes through the textbox since its position is fixed. Nothing I can do without JS.
 * @authorId 
 * @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/move_typing_above_chatbox.css
 */

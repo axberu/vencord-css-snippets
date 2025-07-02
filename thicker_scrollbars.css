@@ -1,0 +1,23 @@
+/**
+* @name Thicker scrollbars
+* @author axberu
+* @version 0.420.69
+* @description Thickens the minuscule scrollbars on server channels, recent DMs, and search panels.
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thicker_scrollbars.css
+*/
+
+/* Set the scrollbar width (not the "thumb"/visible line) */
+div[class*="scroller_"][class*="thin_"]::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Round the corners on the visible line to match the normal scrollbars */
+div[class*="scroller_"][class*="thin_"]::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+}
+
+/* Add some margin to the search panel so the scrollbar doesn't sit right on the edge of the window and it can be clicked more easily */
+div[class*="scroller_"][class*="thin_"][dir="ltr"] {
+    margin-right: 8px;
+}
