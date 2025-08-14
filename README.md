@@ -21,7 +21,13 @@ https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thicker_scrol
 ```
 Thickens the minuscule scrollbars on server channels, recent DMs, and search panels.
 
-## Thinner channel/recent DMs panel
+## Transparent "Create DM" button
+```
+https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
+```
+Makes the "Create DM" button transparent so it doesn't stand out like a sore thumb.
+
+## Thinner channel/recent DMs panel (no longer needed)
 ```
 https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
 ```

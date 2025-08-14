@@ -1,0 +1,12 @@
+/**
+* @name Transparent "Create DM" button
+* @author axberu
+* @version 0.420.69.1
+* @description Makes the "Create DM" button transparent so it doesn't stand out like a sore thumb.
+* @authorId 
+* @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/transparent_create_DM.css
+*/
+
+button[aria-label="Create DM"] {
+	background-color: transparent !important;
+}
