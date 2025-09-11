@@ -8,13 +8,6 @@ https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/bigger_textbo
 ```
 Makes the buttons on the textbox as big as emojis so they don't look tiny with the "refreshed" taller textbox.
 
-## Typing above textbox
-```
-https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/move_typing_above_chatbox.css
-```
-Moves the "X is typing" above chatbox so chatbox is aligned with user info.  
-Warning: If there's more than one line of text typed in the textbox the "Typing..." element goes through the textbox since its position is fixed. Nothing I can do without JS.
-
 ## Thicker scrollbars
 ```
 https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thicker_scrollbars.css
@@ -32,6 +25,13 @@ Makes the "Create DM" button transparent so it doesn't stand out like a sore thu
 https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
 ```
 Reverts the new UI width on the channel list panel.
+
+## Typing above textbox (no longer needed, default behavior since 2025-09-10, finally a good UI update)
+```
+https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/move_typing_above_chatbox.css
+```
+Moves the "X is typing" above chatbox so chatbox is aligned with user info.  
+Warning: If there's more than one line of text typed in the textbox the "Typing..." element goes through the textbox since its position is fixed. Nothing I can do without JS.
 
 # No more upselling/ads
 
