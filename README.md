@@ -14,12 +14,6 @@ https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thicker_scrol
 ```
 Thickens the minuscule scrollbars on server channels, recent DMs, and search panels.
 
-## Transparent "Create DM" button
-```
-https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
-```
-Makes the "Create DM" button transparent so it doesn't stand out like a sore thumb.
-
 ## Thinner channel/recent DMs panel (no longer needed)
 ```
 https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
@@ -32,6 +26,12 @@ https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/move_typing_a
 ```
 Moves the "X is typing" above chatbox so chatbox is aligned with user info.  
 Warning: If there's more than one line of text typed in the textbox the "Typing..." element goes through the textbox since its position is fixed. Nothing I can do without JS.
+
+## Transparent "Create DM" button (no longer needed, button is gone)
+```
+https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/thinner_channel_panel.css
+```
+Makes the "Create DM" button transparent so it doesn't stand out like a sore thumb.
 
 # No more upselling/ads
 
