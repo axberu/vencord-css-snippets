@@ -1,7 +1,7 @@
 /**
 * @name Bigger text box buttons
 * @author axberu
-* @version 0.420.69.3
+* @version 0.420.69.4
 * @description Makes the buttons on the textbox as big as emojis so they don't look tiny with the "refreshed" taller textbox.
 * @authorId 
 * @source https://raw.githubusercontent.com/axberu/vencord-css-snippets/main/bigger_textbox_buttons.css
@@ -12,13 +12,13 @@
 }
 
 /* Gift */
-div[aria-label="Send a gift"] div[class*="-lottieIcon"] {
+div[aria-label="Send a gift"] div[class*="lottieIcon"] {
     height: var(--biggerTextboxIconSize) !important;
     width: 100% !important;
 }
 
 /* Gif + Sticker */
-div.expression-picker-chat-input-button div[class*="-lottieIcon"] {
+div.expression-picker-chat-input-button div[class*="lottieIcon"] {
     height: var(--biggerTextboxIconSize) !important;
     width: 100% !important;
 }
@@ -29,7 +29,7 @@ div[class*="spriteContainer"] {
 }
 
 /* App launcher */
-div.app-launcher-entrypoint div[class*="-lottieIcon"] {
+div.app-launcher-entrypoint div[class*="lottieIcon"] {
     height: var(--biggerTextboxIconSize) !important;
     width: 100% !important;
 }
